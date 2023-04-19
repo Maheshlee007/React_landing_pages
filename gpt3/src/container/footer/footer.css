@@ -1,0 +1,107 @@
+.gpt3__footer {
+  background: var(--color-footer);
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+  gap: 2rem;
+}
+.gpt3__footer-heading {
+  width: 100%;
+  margin: auto;
+  font-family: var(--font-fsmiliy);
+
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  /* or 121% */
+
+  text-align: center;
+  letter-spacing: -0.04em;
+  /* border: 1px solid white; */
+}
+
+.gpt3__footer-heading button {
+  background: var(--color-footer);
+  color: #fff;
+  padding: 1rem;
+  border: 1px solid white;
+  font-family: var(--font-fsmiliy);
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  margin: 3rem 0;
+}
+.gpt3__footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #fff;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: baseline;
+  width: 100%;
+}
+.gpt3__footer-container div > p {
+  text-decoration: none;
+  font-family: var(--font-fsmiliy);
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 1rem;
+  text-align: left;
+  height: 50%;
+}
+.gpt3__footer-container__links,
+.gpt3__footer-container__company,
+.gpt3__footer-container__git {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0 2rem;
+  /* border: 1px solid white; */
+  /* width: 20%;height: auto; */
+  /* align-content:flex-start; */
+}
+
+.gpt3__footer-copyright {
+  color: #fff;
+  font-family: var(--font-fsmiliy);
+  text-align: center;
+  margin-top: 4rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 700px) {
+  .gpt3__footer-heading {
+    font-size: 3rem;
+    width: 100%;
+  }
+  .gpt3__footer {
+    width: 90vw;
+    overflow: hidden;
+    margin: 3px auto 3px;
+  }
+  .gpt3__footer-container {
+    display: flex;
+    /* grid-template-columns: 1fr ; */
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 5rem;
+    width: 100%;
+    margin: 2px;
+  }
+  .gpt3__footer-container__links,
+  .gpt3__footer-container__company,
+  .gpt3__footer-container__git {
+    margin-top: 2rem;
+  }
+  .gpt3__footer-container__image p,
+  img {
+    text-align: center;
+    width: 100%;
+  }
+}
