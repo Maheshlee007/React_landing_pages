@@ -1,0 +1,27 @@
+.app__menu {
+  width: 100%;
+}
+.app__menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app__menu-item h2 {
+  /* width: 80%; */
+  flex: 1;
+  color: var(--color-golden);
+  margin-left: 5px;
+  font-family: var(--font-base);
+}
+.app__menu-item .app__menu-bar {
+  width: 80px;
+  height: 2px;
+  background-color: gray;
+  margin: 20px;
+}
+.app__menu-tag {
+  color: var(--color-gray);
+}
+.app__menu-item p {
+  color: aliceblue;
+}

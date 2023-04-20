@@ -1,0 +1,44 @@
+.app__aboutus {
+  position: relative;
+  background: linear-gradient(180deg, black, black, black, white);
+}
+
+.app__aboutus-overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.app__aboutus-overlay img {
+  width: 391px;
+  height: 415px;
+  z-index: 0;
+}
+.app__aboutus-content {
+  width: 100%;
+  z-index: 1;
+}
+.app__aboutus-content_knife {
+  width: 391px;
+  height: 600px;
+}
+
+.app__aboutus-content_knife img {
+  height: 100%;
+  margin: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .app__aboutus {
+    background: linear-gradient(45deg, black 40%, white 20%, black 50%);
+    width: 95%;
+  }
+  .app__aboutus .app__aboutus-content {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .app__aboutus-content_about {
+    text-align: right;
+    padding: 10px;
+  }
+}

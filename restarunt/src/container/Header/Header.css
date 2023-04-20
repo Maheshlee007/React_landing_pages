@@ -18,9 +18,9 @@
 .app__wrapper-img img {
   width: 80%;
 }
-letter-spacing: 0.04em;
 
 .custom__button:hover {
+  letter-spacing: 0.04em;
   background: transparent;
   border: 2px solid var(--color-golden);
   color: var(--color-golden);
