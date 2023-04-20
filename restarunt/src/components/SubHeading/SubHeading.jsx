@@ -1,8 +1,13 @@
-import React from 'react';
+import React from "react";
+import { images } from "../../constants";
 
-const SubHeading = () => (
+const mb = {
+  marginBottom: "1rem",
+};
+const SubHeading = (props) => (
   <div>
-    SubHeading
+    <p className="p__cormorant">{props.title}</p>
+    <img src={images.spoon} alt="spoon" className="spoon__img" />
   </div>
 );
 

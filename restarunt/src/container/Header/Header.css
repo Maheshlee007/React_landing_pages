@@ -1,0 +1,35 @@
+.app__header {
+  background-color: var(--color-black);
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2rem;
+}
+.app__wrapper__info {
+  /* margin:3em 5em; */
+}
+.app__header-h1 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  text-transform: capitalize;
+  font-size: 80px;
+  line-height: 104px;
+}
+
+.app__wrapper-img img {
+  width: 80%;
+}
+letter-spacing: 0.04em;
+
+.custom__button:hover {
+  background: transparent;
+  border: 2px solid var(--color-golden);
+  color: var(--color-golden);
+}
+
+@media only screen and (max-widt: 650px) {
+  .app__header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+}
