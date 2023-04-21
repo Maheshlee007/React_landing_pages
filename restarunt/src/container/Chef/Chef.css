@@ -1,0 +1,39 @@
+.app__chef-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  margin-top: 1rem;
+}
+.app__wrapper_info h1 {
+  font-size: 3.5em;
+}
+
+.app__chef-sign::first-line {
+  color: var(--color-golden);
+  padding: 2em;
+}
+.app__chef-sign {
+  line-height: 50px;
+  letter-spacing: 5px;
+}
+.app__chef-sign img {
+  height: 6rem;
+  margin-top: 10px;
+}
+.app__wrapper_img,
+.app__wrapper_img-reverse {
+  width: 200px;
+  height: 400px;
+}
+
+.app__wrapper_img img {
+  width: 370px !important;
+  height: auto;
+}
+
+.app__chef-content_quote {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}

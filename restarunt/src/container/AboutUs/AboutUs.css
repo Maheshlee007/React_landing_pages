@@ -30,7 +30,7 @@
 @media screen and (max-width: 600px) {
   .app__aboutus {
     background: linear-gradient(45deg, black 40%, white 20%, black 50%);
-    width: 95%;
+    width: 100%;
   }
   .app__aboutus .app__aboutus-content {
     flex-direction: column;

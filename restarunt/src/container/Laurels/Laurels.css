@@ -1,0 +1,30 @@
+.app__wrapper {
+  position: relative;
+}
+
+.app__wrapper_info .app__laurels_awards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 3rem;
+  gap: 20px 20px;
+  font-size: 0.5em;
+}
+.app__laurels_awards-card img {
+  width: 50px;
+  height: 50px;
+  margin: 1em;
+}
+.app__top_logo {
+  width: 100px;
+  height: 100px;
+}
+
+.app__top_logo img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: -50px;
+}
+.app__laurels_awards-card_content {
+  font-size: 18px;
+}

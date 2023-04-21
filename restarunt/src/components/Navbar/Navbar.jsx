@@ -13,7 +13,7 @@ const Navbar = () => {
       <div
         className="app__navbar-logo"
         onMouseMove={() => {
-          if (window.innerWidth > 650) {
+          if (window.innerWidth < 650) {
             settoggle(!toggle);
           }
         }}
@@ -79,6 +79,18 @@ const Navbar = () => {
                 <a href="contact">Contact</a>
               </li>
             </ul>
+            <div className="app__navbar-login" style={{ color: "white" }}>
+              <a href="#login" className="p_opensans">
+                Login /
+              </a>
+
+              <a href="#register" className="p_opensans">
+                Register |
+              </a>
+              <a href="#register" className="p_opensans">
+                Book Table
+              </a>
+            </div>
           </div>
         )}
       </div>
