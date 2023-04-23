@@ -12,7 +12,9 @@ import {
   Hero,
 } from "./components";
 
-import "./App.css";
+// import "./App.css";
+import "./index.css";
+import styles from "./constants/style";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,7 +26,7 @@ function App() {
           <Navbar />
         </div>
       </div>
-      <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`bg-primary ${styles.flexStart} w-full h-full`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
