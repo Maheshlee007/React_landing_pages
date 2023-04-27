@@ -6,14 +6,14 @@ import { stats } from "../constants";
 const Stats = () => {
   return (
     <section
-      className="bg-primary  text-white  w-full flex sm:flex-row 
-      ss:justify-between  h-[100px] p-8 my-2"
+      className="bg-primary  text-white align-middle  w-full flex flex-col sm:flex-row 
+      sm:justify-between   sm:h-[100px] p-8 my-2"
     >
       {stats.map((stat) => {
         return (
           <div
             key={stat.id}
-            className={`w-[50%] mx-auto sm:flex sm:mr-4 mt-4 h-9 text-center items-center`}
+            className={`sm:w-[50%]  sm:flex sm:mr-4 mt-16 h-9  text-center items-center`}
           >
             <h4 className="font-semibold text-white text-4xl sm:mr-4 ] ">
               {stat.value}

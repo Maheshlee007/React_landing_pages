@@ -6,6 +6,7 @@ import { features } from "../constants";
 const Business = () => {
   return (
     <section
+      id="features"
       className="bg-primary w-full h-full flex flex-col my-16 justify-between items-start 
     ss:flex-col sm:flex-row sm:mt-20"
     >

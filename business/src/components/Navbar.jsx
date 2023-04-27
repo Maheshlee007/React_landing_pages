@@ -16,7 +16,7 @@ const Navbar = () => {
                 index == navLinks.length - 1 ? "mr-0" : "mr-10"
               } cursor-pointer`}
             >
-              {navlink.title}
+               <a href={`#${navlink.id}`}>{navlink.title}</a>
             </li>
           );
         })}
@@ -43,7 +43,7 @@ const Navbar = () => {
                   index == navLinks.length - 1 ? "mb-0" : "mb-10"
                 } cursor-pointer hover:bg-slate-500`}
               >
-                {navlink.title}
+                <a href={`#${navlink.id}`}>{navlink.title}</a>
               </li>
             );
           })}
