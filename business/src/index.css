@@ -31,7 +31,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color : transparent;
+  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {
@@ -44,6 +44,9 @@
     #5ce1e6 51.94%,
     #33bbcf 90.29%
   );
+}
+.borderGradient {
+  background-image: linear-gradient(45deg,purple,orange);
 }
 
 .bg-black-gradient {
