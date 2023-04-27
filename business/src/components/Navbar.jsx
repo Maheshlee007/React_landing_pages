@@ -3,11 +3,11 @@ import { logo, close, menu } from "../assets";
 import { navLinks } from "../constants/index";
 
 const Navbar = () => {
-  const [toggle, settoggle] = useState();
+  const [toggle, settoggle] = useState(false);
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-[90%] flex py-4 justify-between items-center navbar fixed z-10 bg-slate-500/10">
       <img src={logo} alt="" className="w-32 h-8" />
-      <ul className="list-none  sm:flex hidden justify-end flex-1 items-center">
+      <ul className="list-none sm:flex hidden justify-end flex-1 items-center">
         {navLinks.map((navlink, index) => {
           return (
             <li
@@ -21,7 +21,7 @@ const Navbar = () => {
           );
         })}
       </ul>
-      <div className="sm:flex flex flex-1 justify-end items-center">
+      <div className="  flex-1 justify-end items-center flex sm:hidden">
         <img
           src={toggle ? close : menu}
           alt="menu"
